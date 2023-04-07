@@ -2,13 +2,11 @@ body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
     color: #000000;
-    background-image: url('https://i.imgur.com/f9b76Rn.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-color: #f4f4f4;
   }
   
   header {
-    background: #f4f4f4;
+    background: #ffffff;
     padding: 1rem;
   }
   
@@ -43,9 +41,7 @@ body {
     flex-wrap: wrap;
     align-items: center;
     margin-bottom: 20px;
-    background-image: url('https://i.imgur.com/f9b76Rn.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-color: #f4f4f4;
     padding: 20px;
   }
   
