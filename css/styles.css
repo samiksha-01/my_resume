@@ -2,73 +2,92 @@ body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
     color: #333;
-}
-
-header {
+    background-image: url('https://imgur.com/a/fTvIafB');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  header {
     background: #f4f4f4;
     padding: 1rem;
-}
-
-nav {
+  }
+  
+  nav {
     display: flex;
     justify-content: space-between;
-}
-
-nav a {
+  }
+  
+  nav a {
     text-decoration: none;
     color: #333;
     padding: 0.5rem;
-}
-
-nav a:hover {
+  }
+  
+  nav a:hover {
     background: #333;
     color: #fff;
-}
-
-main {
+  }
+  
+  main {
     padding: 2rem;
-}
-
-h1 {
+  }
+  
+  h1 {
     font-size: 2rem;
-}
-
-.profile {
+  }
+  
+  .profile {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     margin-bottom: 20px;
-}
-
-.profile-photo {
+    background-image: url('https://imgur.com/a/fTvIafB');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px;
+  }
+  
+  .profile-photo {
     width: 200px;
     height: 200px;
     margin-right: 20px;
     float: left;
-}
-
-.profile-info {
+  }
+  
+  .profile-info {
     float: right;
     max-width: 50%;
-}
-
-.content {
+  }
+  
+  .profile-name {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 0;
+  }
+  
+  .profile-contact {
+    margin-top: 0;
+    font-size: 1.2rem;
+  }
+  
+  .content {
     margin-top: 20px;
-}
-
-@media (max-width: 768px) {
+  }
+  
+  @media (max-width: 768px) {
     .profile {
-        flex-direction: column;
+      flex-direction: column;
     }
-
+  
     .profile-photo {
-        float: none;
-        margin-right: 0;
-        margin-bottom: 20px;
+      float: none;
+      margin-right: 0;
+      margin-bottom: 20px;
     }
-
+  
     .profile-info {
-        float: none;
-        max-width: 100%;
+      float: none;
+      max-width: 100%;
     }
-}
+  }
+  
